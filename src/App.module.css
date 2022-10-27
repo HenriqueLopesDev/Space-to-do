@@ -1,0 +1,116 @@
+.app header{
+    display: flex;
+    justify-content: center;
+    padding: 4.5rem 0 5rem 0;
+    background: var(--gray-700);
+    flex-direction: column;
+}
+
+.app img{
+    margin: 0 auto;
+    height: 3rem;
+    width: 7.875rem;
+}
+
+.app form{
+    margin-top: -1.68rem;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.app input{
+    border: 1px solid var(--gray-700);
+    background: #262626;
+    border-radius: 8px;
+    color: var(--gray-100);
+    padding: 1rem;
+    height: 3.375rem;
+    width: 39.875rem;
+}
+
+.app input:focus{
+    border: 1px solid var(--purple-dark);
+    outline: none;
+}
+
+.app button{
+    border: none;
+    color: var(--gray-100);
+    padding: 1rem;
+    border-radius: 8px;
+    width: 5.625rem;
+    background: var(--blue-dark);
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+
+.app button:hover{
+    background: var(--blue);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    align-items: center;
+}
+
+.info{
+    display: flex;
+    height: 1.1875rem;
+    width: 46rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.taskscreated{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.taskscreated span{
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 1.7;
+    color: var(--blue);
+}
+
+.taskscreated p{
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 0.75rem;
+    color: var(--gray-200);
+    background: var(--gray-400);
+    padding: 0.125rem 0.5rem;
+    border-radius: 999px;
+    height: 1.1875rem;
+}
+
+.completed{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.completed span{
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 1.7;
+    color: var(--purple);
+    
+}
+
+.completed p{
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 0.75rem;
+    color: var(--gray-200);
+    background: var(--gray-400);
+    padding: 0.125rem 0.5rem;
+    border-radius: 999px;
+    height: 1.1875rem;
+}
