@@ -21,7 +21,8 @@
 }
 
 body{
-    background: #454545;
+    padding-bottom: 3rem;
+    background: var(--gray-600);
     -webkit-font-smoothing: antialiased;
 }
 
